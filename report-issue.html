@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Report an Issue · Font Helper 🎨</title>
+  <meta name="description" content="Report a bug or request a feature for Font Helper.">
+  <meta name="theme-color" content="#12142d">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/font-helper-32.png">
+  <link rel="apple-touch-icon" href="assets/font-helper-128.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <img src="assets/font-helper-48.png" alt="">
+      <span>Font Helper 🎨</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="help.html">Help</a>
+      <a href="support.html">Support</a>
+      <a href="report-issue.html">Report issue</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
+
+
+<main class="wrap page">
+  <div class="page-shell">
+    <article class="article">
+      <h1>Report an Issue</h1>
+      <p class="meta">Bug reports and feature requests for Font Helper 🎨</p>
+
+      <p>
+        Fill in the form below. When you select <strong>Prepare email</strong>, your email application will open
+        with the report pre-filled for <strong>emi.codes.apps@gmail.com</strong>. This page does not upload your
+        form contents to a separate server.
+      </p>
+
+      <form id="issue-form" class="form-grid">
+        <label>
+          Issue type
+          <select name="type">
+            <option>Bug</option>
+            <option>Feature request</option>
+            <option>Installation / authorization</option>
+            <option>Compatibility</option>
+            <option>Other</option>
+          </select>
+        </label>
+
+        <label>
+          Short summary
+          <input name="summary" required placeholder="e.g. Sidebar does not update selected font">
+        </label>
+
+        <label>
+          Browser / environment
+          <input name="environment" placeholder="e.g. Firefox on Windows 11 / Google Docs">
+        </label>
+
+        <label>
+          Steps to reproduce
+          <textarea name="steps" required placeholder="1. Opened a document&#10;2. Selected text&#10;3. ..."></textarea>
+        </label>
+
+        <label>
+          Expected result
+          <textarea name="expected" placeholder="What did you expect to happen?"></textarea>
+        </label>
+
+        <label>
+          Actual result
+          <textarea name="actual" required placeholder="What happened instead?"></textarea>
+        </label>
+
+        <label>
+          Additional notes
+          <textarea name="notes" placeholder="Anything else that might help"></textarea>
+        </label>
+
+        <button class="button primary" type="submit">Prepare email</button>
+      </form>
+
+      <p class="small">
+        Please do not include passwords, access tokens, private keys, or confidential document text.
+      </p>
+    </article>
+
+    <aside class="side">
+      <strong>Other support options</strong>
+      <a href="help.html">Help</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </aside>
+  </div>
+</main>
+
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <div>© <span data-year></span> Font Helper 🎨</div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="mailto:emi.codes.apps@gmail.com">emi.codes.apps@gmail.com</a>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
